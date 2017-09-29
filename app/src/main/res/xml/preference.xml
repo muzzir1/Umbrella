@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="95051"
+        android:dependency="zip_code"
+        android:key="zip_code"
+        android:title="Zip"
+        android:summary=""/>
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dependency="units"
+        android:entries="@array/ListUnits"
+        android:entryValues="@array/ListUnitValues"
+        android:key="units"
+        android:summary="%s"
+        android:title="Units" />
+
+</PreferenceScreen>

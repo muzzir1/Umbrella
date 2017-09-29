@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Umbrella</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="default_unit_value">Fahrenheit</string>
+
+    <string-array name="ListUnits">
+        <item>Fahrenheit</item>
+        <item>Celcius</item>
+    </string-array>
+
+    <string-array name="ListUnitValues">
+        <item>0</item> <!--Fahrenheit-->
+        <item>1</item>  <!--Celcius-->
+    </string-array>
+
+</resources>
